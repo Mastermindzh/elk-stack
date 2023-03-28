@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:21-ea-13-slim-bullseye
 
 ENV CEREBRO_VERSION 0.7.3
 RUN mkdir -p /opt/cerebro
